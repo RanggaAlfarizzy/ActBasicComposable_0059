@@ -74,6 +74,22 @@ fun TugasLogin(modifier: Modifier) {
             Spacer(
                 modifier = Modifier.height(35.dp)
             )
+
+            Image(
+                painter = logo,
+                contentDescription = null,
+                modifier = Modifier
+                    .height(120.dp)
+                    .width(120.dp)
+                    .clip(CircleShape),
+
+                contentScale = ContentScale.Crop
+            )
+
+
+            Spacer(
+                modifier = Modifier.height(30.dp)
+            )
         }
     }
 }
