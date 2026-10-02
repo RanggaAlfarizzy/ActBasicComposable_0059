@@ -69,6 +69,11 @@ fun TugasLogin(modifier: Modifier) {
                 fontSize = 13.sp,
                 color = Color.White
             )
+
+
+            Spacer(
+                modifier = Modifier.height(35.dp)
+            )
         }
     }
 }
