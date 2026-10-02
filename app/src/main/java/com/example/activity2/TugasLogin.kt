@@ -38,4 +38,17 @@ fun TugasLogin(modifier: Modifier) {
     val profpic = painterResource(
         id = R.drawable.foto_denia
     )
+
+    Box(
+        modifier = modifier.fillMaxSize()
+    ) {
+
+        Image(
+            painter = background,
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
+    }
 }
