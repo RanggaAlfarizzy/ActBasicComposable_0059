@@ -97,6 +97,13 @@ fun TugasLogin(modifier: Modifier) {
                 color = Color.Red,
                 fontWeight = FontWeight.Bold
             )
+
+            Text(
+                text = "Rangga Alfarizzy",
+                fontSize = 15.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }
