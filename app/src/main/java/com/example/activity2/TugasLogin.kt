@@ -27,5 +27,15 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun TugasLogin(modifier: Modifier) {
+    val background = painterResource(
+        id = R.drawable.background_login
+    )
 
+    val logo = painterResource(
+        id = R.drawable.logo_umy
+    )
+
+    val profpic = painterResource(
+        id = R.drawable.foto_denia
+    )
 }
