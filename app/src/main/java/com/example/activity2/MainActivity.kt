@@ -19,28 +19,12 @@ class MainActivity : ComponentActivity() {
         setContent {
             Activity2Theme() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Panggil composable layout utama dengan padding dari Scaffold
-                    TataletakBoxColumnRow(
+
+                    TugasLogin(
                         modifier = Modifier.padding(paddingValues = innerPadding)
                     )
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Activity2Theme {
-        Greeting("Android")
     }
 }
